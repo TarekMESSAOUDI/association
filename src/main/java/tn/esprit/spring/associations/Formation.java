@@ -27,6 +27,8 @@ private String theme; // Thème formation
 @OneToOne(cascade = CascadeType.ALL)
 @JoinColumn(name="FK_FD_ID")
 private FormationDetail formationDetail;
+
+//this is a test of a jenkins communication
 @ManyToMany(cascade = CascadeType.ALL)
 private Set<TravauxPratiques> formationTps;
 
